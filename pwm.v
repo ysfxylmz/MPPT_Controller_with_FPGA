@@ -20,7 +20,7 @@
 
 
 module pwm
-#(parameter RESOLUTION=16)
+    #(parameter RESOLUTION=8)
 (
     input [RESOLUTION-1:0] duty_i,
     input clk_i,
